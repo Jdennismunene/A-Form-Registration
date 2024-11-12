@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="index.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="container">
+        <form action="#">
+            <i class='bx bxs-graduation'></i>
+            <h2>Registration Form</h2>
+            <div class="user-input">
+                <div class="user-details">
+                    <label for="registrationNo">Registration number:</label>
+                    <input type="text" name="regNo" id="regNo"  placeholder="Enter registration number">
+                </div>
+                <div class="user-details">
+                    <label for="name">Name:</label>
+                    <input type="text" placeholder="Enter name" id="name">
+                </div>
+                <div class="user-details">
+                    <label for="age">Age:</label>
+                    <input type="number" placeholder="Input age" id="age">
+                </div>
+                <div class="user-details">
+                    <label for="D.O.B">Date Of Birth:</label>
+                    <input type="date" placeholder="Enter date of Birth" id="D.O.B">
+                </div>
+            </div>
+            <div class="gender-details">
+                <label for="gender">Gender:</label>
+                <input type="radio" name="gender" value="male" checked>
+                <span>Male</span>
+                <input type="radio" name="gender" value="female">
+                <span>Female</span>
+                <input type="radio" name="gender" value="prefer not to say">
+                <span>Prefer not to say</span>
+            </div>
+            <div class="school-input">
+                <div class="programme-details">
+                    <label for="Programme">Programme Registered:</label>
+                    <select name="programme registered" id="">
+                        <option value="IT">BSC Information Technology</option>
+                        <option value="SE">BSC Software Engineering</option>
+                        <option value="CS">BSC Computer Science</option>
+                        <option value="CSE">BSC Computer Systems Engineering</option>
+                    </select>
+                </div>
+                <div class="school-details">
+                    <label for="school">School:</label>
+                    <select name="schools" id="">
+                        <option value="SPAS">School of Pure and applied Science</option>
+                        <option value="HS">School of Health Science</option>
+                        <option value="business">School of Business</option>
+                        <option value="education">School of Education</option>
+                    </select>
+                </div>
+            </div>
+            <div class="study-details">
+                <label for="">Mode of Study:</label>
+                <select name="mode" id="">
+                    <option value="physical">Physical</option>
+                    <option value="online">Online</option>
+                </select>
+            </div>
+            <div class="btn">
+                <button value="Submit">Submit</button>
+                <button value="reset">Reset</button>
+                <button value="cancel">Cancel</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
